@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dela+Gothic+One&family=EB+Garamond&family=Londrina+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    padding: 10px;
+    height: 5vh;
+    margin-bottom: 10px;
+    background-color: black;
+}
+.navbar .links img{
+    height: 5vh;
+    margin-top: -.5px;
+    margin-right: 5px;
+    float: right;
+}
+.navbar .neo{
+    margin-top: 5px;
+    font-family: 'Londrina Outline', cursive;
+    color: white;
+    float: left;
+    font-size: 25px;
+}
+.navbar .istj{
+    margin-left: 30vh;
+    margin-top: -1.5vh;
+    height: 57px;
+}
+.container{
+    margin: 10px;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+.container div{
+    padding: 5px;
+    min-height: 40vh;
+}
+.sidelinks{
+    display: inline-block;
+    background-color: #0481aa;
+    font-family: 'Londrina Outline', cursive;
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+    width: 10vw;
+    float: left;
+}
+.sidelinks a{
+    display: block;
+}
+.sidelinks img{
+    border-radius: 10px;
+    height: 8vh;
+    margin-bottom: 6px;
+}
+.main-content{
+    background-color: #17aae5;
+    display: inline-block;
+    border-radius: 20px;
+    width: 60vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    text-align: left;
+}
+.main-content img{
+    float: left;
+    height: 25vw;
+}
+.main-content .ISTJ{
+    color: white;
+    display: block;
+    text-align: center;
+}
+.main-content h2{
+    font-size: 50px;
+    font-family: 'Dela Gothic One', cursive;
+}
+.main-content span{
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+}
+.side-content{
+    display: inline-block;
+    width: 20vw;
+    float: right;  
+}
+.side-content img{
+    width: 42.5vh;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #0b4f6c;
+    color: white;
+    text-align: left;
+    padding: 25px;
+}
