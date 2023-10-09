@@ -4,35 +4,32 @@
     margin: 0px;
 }
 .navbar{
-    padding: 10px;
-    height: 5vh;
+    height: 7.5vh;
     margin-bottom: 10px;
     background-color: black;
 }
 .navbar .links img{
     height: 5vh;
-    margin-top: -.5px;
+    margin-top: 10px;
     margin-right: 5px;
     float: right;
 }
 .navbar .neo{
-    margin-top: 10px;
+    margin-top: 25px;
     font-family: 'Londrina Outline', cursive;
     color: white;
     float: left;
-    font-size: 30px;
+    font-size: 20px;
 }
 .navbar .istj{
-    margin-left: 30vh;
-    margin-top: -1.5vh;
+    margin-left: 20vw;
     height: 7.5vh;
 }
 .container{
     display: inline-block;
-    margin: 20px;
+    margin: 1px;
     text-align: center;
     padding: 25px;
-    margin-top: 50px;
 }
 .container div{
     padding: 5px;
@@ -60,7 +57,7 @@
     display: inline-block;
     border-radius: 20px;
     width: 60vw;
-    height: 50vh;
+    height: 55vh;
     margin-left: 1vw;
     margin-right: 1vw;
     text-align: left;
@@ -83,7 +80,7 @@
     font-size: 20px;
 }
 .main-content .tracks{
-    margin-top: -16vh;
+    margin-top: -15vh;
     text-align: left;
     color: white;
 }
