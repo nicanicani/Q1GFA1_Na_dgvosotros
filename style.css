@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dela+Gothic+One&family=EB+Garamond&family=Londrina+Outline&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap');
 *{
     padding: 0px;
     margin: 0px;
@@ -17,19 +16,20 @@
     float: right;
 }
 .navbar .neo{
-    margin-top: 5px;
+    margin-top: 10px;
     font-family: 'Londrina Outline', cursive;
     color: white;
     float: left;
-    font-size: 25px;
+    font-size: 30px;
 }
 .navbar .istj{
     margin-left: 30vh;
     margin-top: -1.5vh;
-    height: 57px;
+    height: 7.5vh;
 }
 .container{
-    margin: 10px;
+    display: inline-block;
+    margin: 20px;
     text-align: center;
     padding: 25px;
     margin-top: 50px;
@@ -39,7 +39,6 @@
     min-height: 40vh;
 }
 .sidelinks{
-    display: inline-block;
     background-color: #0481aa;
     font-family: 'Londrina Outline', cursive;
     color: white;
@@ -61,6 +60,7 @@
     display: inline-block;
     border-radius: 20px;
     width: 60vw;
+    height: 50vh;
     margin-left: 1vw;
     margin-right: 1vw;
     text-align: left;
@@ -82,13 +82,27 @@
     font-family: 'EB Garamond', serif;
     font-size: 20px;
 }
-.side-content{
+.main-content .tracks{
+    margin-top: -16vh;
+    text-align: left;
+    color: white;
+}
+.main-content .tracklist{
+    font-size: 30px;
+}
+.main-content .tracks div{
     display: inline-block;
+    margin-right: 20px;
+    font-weight: 550;
+    font-size: 30px;
+    font-family: 'Londrina Outline', cursive;
+}
+.side-content{
     width: 20vw;
     float: right;  
 }
-.side-content img{
-    width: 42.5vh;
+.yodream{
+    text-align: center;
 }
 .footer {
     position: fixed;
